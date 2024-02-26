@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:wght@400;700&display=swap');
+
+
+.maincover{
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    width: 100%;
+    width: auto;
+    overflow: hidden;
+
+
+}
+
+.maincover .wrap__coverimg{
+    white-space: nowrap;
+    transition: ease 1000ms;
+    width: auto;
+    height: auto;
+}
+
+.maincover .wrap__coverimg img{
+    display: inline-block;
+    object-fit: cover;
+    height: calc(100vh - 50px);
+    width: 100vw;
+}
+
+.maincover .description__row{
+    height: calc(100% - 50px);
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.maincover .description__row .background__blur{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(0, 242, 255, 0.081),rgba(255, 255, 255, 1));
+}
+
+.maincover .description__row .dots_row{
+    position: absolute;
+    height: 50px;
+    width: 100vw;
+    overflow: hidden;
+    bottom: 0px;
+    border: 0px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincover .description__row .dots_row .dot{
+    border: 0px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 5px black);
+    cursor: pointer;
+}
+
+.maincover .description__row .description__wrapper{
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 200px;
+    width: 400px;
+}
+
+
+.maincover .description__row .description__wrapper .description__box{
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: 0px solid;
+    border-top-left-radius: 25px;
+    box-sizing: border-box;
+    padding: 25px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+
+}
+
+
+.description__box .header__description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+
+}
+
+.description__box .header__description h1{
+    font-family: "Protest Strike", sans-serif;
+    font-size: 30px;
+    width: 70%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #03045e;
+}
+
+.description__box .header__description img{
+    height: auto;
+    width: 30px;
+}
+
+.description__box .header__description img:hover{
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.description__box h2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 20%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.description__box ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 15%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul li {
+    height: 20px;
+    width: auto;
+}
+
+li .rating__img {
+    height: 20px;
+    width: auto;
+    margin-right: 3px;
+}
+
+.description__box .description{
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

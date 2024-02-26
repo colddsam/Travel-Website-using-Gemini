@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:wght@400;700&display=swap');
+
+
+.cardlist{
+    height: auto;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+
+.cardlist h1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #201658;
+
+}
+
+.cards {
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardlist .cards .card{
+    position: relative;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 25px;
+}
+
+.card .innercard{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 0px solid;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover .innercard{
+    transform: rotateY(180deg);
+}
+
+.front , .back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 25px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front{
+    background-color: #FEFBF6;
+}
+
+.back{
+    padding: 20px;
+    background-color: #FEFBF6;
+    transform: rotateY(180deg);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: start;
+    font-size: 14px;
+}
+
+.front img{
+    position: relative;
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.front .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35%;
+    width: 100%;
+    background-color: #FEFBF6;
+}
+
+.front .details .effect{
+    top: -100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0),#FEFBF6)
+}
+
+.front .details .details__container{
+    position: relative;
+    height: 100%;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.front .details .openlink{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.front .details .openlink img{
+    height:30px;
+    width: 30px;
+}
+
+.details__container .name{
+    font-family: "Protest Strike", sans-serif;
+    font-size: 24px;
+    height: 40%;
+    width: 100%;
+    line-height: 24px;
+    display: -webkit-box;
+    align-items: center;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.details__container .location{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    height: 30%;
+    width: 100%;
+    line-height: 20px;
+    display: -webkit-box;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.details__container .stars{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.details__container .stars .star{
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.back .effect{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.back .description{
+    position: relative;
+    color: white;
+}
+
+.back img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

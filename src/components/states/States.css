@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:wght@400;700&display=swap');
+
+.states__wrap{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.states__wrap h1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #201658;
+}
+
+.states__wrap .statelist{
+    height: auto;
+    width: 90vw;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.states__wrap .statelist .state{
+    margin: 25px;
+    position: relative;
+    height: 125px;
+    width: 250px;
+    border: 0px solid;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.state img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.state .state__effect{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.state .state__effect h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    z-index: 3;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+
+.state{
+    transition: 500ms ease;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.state:hover{
+    transform: scale(110%,110%);
+}
+

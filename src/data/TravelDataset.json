@@ -1,0 +1,338 @@
+[
+ {
+  "name": "Taj Mahal",
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "description": "The iconic white marble mausoleum, symbol of eternal love, built by Emperor Shah Jahan for his wife Mumtaz Mahal.",
+  "public_rating": 5,
+  "id": 0
+ },
+ {
+  "name": "Jaipur Pink City",
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "description": "Known for its historic forts, vibrant markets, and the City Palace, Jaipur is a beautiful blend of tradition and modernity.",
+  "public_rating": 4,
+  "id": 1
+ },
+ {
+  "name": "Varanasi Ghats",
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "description": "A spiritual and cultural hub, Varanasi is famous for its ghats along the Ganges River, hosting religious ceremonies and rituals.",
+  "public_rating": 5,
+  "id": 2
+ },
+ {
+  "name": "Kerala Backwaters",
+  "city": "Alappuzha",
+  "state": "Kerala",
+  "description": "A network of lagoons, lakes, and canals, offering a serene and picturesque experience of the Kerala countryside.",
+  "public_rating": 5,
+  "id": 3
+ },
+ {
+  "name": "Golden Temple",
+  "city": "Amritsar",
+  "state": "Punjab",
+  "description": "The spiritual and cultural center for Sikhs, the Golden Temple is a stunning architectural marvel surrounded by a sacred pool.",
+  "public_rating": 5,
+  "id": 4
+ },
+ {
+  "name": "Hampi Ruins",
+  "city": "Hampi",
+  "state": "Karnataka",
+  "description": "A UNESCO World Heritage Site, Hampi is known for its ancient ruins, temples, and historical significance.",
+  "public_rating": 4,
+  "id": 5
+ },
+ {
+  "name": "Rishikesh and Haridwar",
+  "city": "Rishikesh and Haridwar",
+  "state": "Uttarakhand",
+  "description": "Nestled in the Himalayas, these twin towns are famous for their spiritual significance, yoga, and the Ganga Aarti.",
+  "public_rating": 4,
+  "id": 6
+ },
+ {
+  "name": "Goa Beaches",
+  "city": "Goa",
+  "state": "Goa",
+  "description": "Renowned for its vibrant nightlife and pristine beaches, Goa is a popular tourist destination with a unique blend of cultures.",
+  "public_rating": 5,
+  "id": 7
+ },
+ {
+  "name": "Khajuraho Temples",
+  "city": "Khajuraho",
+  "state": "Madhya Pradesh",
+  "description": "A group of stunning temples with intricate erotic sculptures, showcasing medieval Indian architecture and artistry.",
+  "public_rating": 4,
+  "id": 8
+ },
+ {
+  "name": "Mysore Palace",
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "description": "A grand palace known for its Indo-Saracenic architecture, Mysore Palace is a cultural and historical landmark.",
+  "public_rating": 5,
+  "id": 9
+ },
+ {
+  "name": "Qutub Minar",
+  "city": "Delhi",
+  "state": "Delhi",
+  "description": "A UNESCO World Heritage Site, Qutub Minar is the tallest brick minaret in the world, reflecting Indo-Islamic architecture.",
+  "public_rating": 4,
+  "id": 10
+ },
+ {
+  "name": "Ajanta and Ellora Caves",
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "description": "These ancient rock-cut caves showcase exquisite sculptures and paintings, depicting Buddhist and Hindu art.",
+  "public_rating": 4,
+  "id": 11
+ },
+ {
+  "name": "Rann of Kutch",
+  "city": "Kutch",
+  "state": "Gujarat",
+  "description": "The largest salt desert in the world, Rann of Kutch transforms into a surreal white landscape during the Rann Utsav.",
+  "public_rating": 4,
+  "id": 12
+ },
+ {
+  "name": "Andaman and Nicobar Islands",
+  "city": "Port Blair",
+  "state": "Andaman and Nicobar Islands",
+  "description": "Known for pristine beaches and diverse marine life, these islands offer a tranquil escape in the Bay of Bengal.",
+  "public_rating": 5,
+  "id": 13
+ },
+ {
+  "name": "Sundarbans National Park",
+  "city": "Sundarbans",
+  "state": "West Bengal",
+  "description": "The largest mangrove forest in the world, home to the Bengal tiger and diverse flora and fauna.",
+  "public_rating": 4,
+  "id": 14
+ },
+ {
+  "name": "Rajasthan Desert Safari",
+  "city": "Jaisalmer",
+  "state": "Rajasthan",
+  "description": "Embark on a thrilling desert safari in the golden sands of Rajasthan, experiencing the rich culture of the desert.",
+  "public_rating": 4,
+  "id": 15
+ },
+ {
+  "name": "Elephant Cave",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "description": "A rock-cut cave temple on Elephanta Island, featuring impressive sculptures dedicated to Lord Shiva.",
+  "public_rating": 4,
+  "id": 16
+ },
+ {
+  "name": "Chittorgarh Fort",
+  "city": "Chittorgarh",
+  "state": "Rajasthan",
+  "description": "One of the largest forts in India, Chittorgarh Fort narrates tales of valor and sacrifice from Rajput history.",
+  "public_rating": 4,
+  "id": 17
+ },
+ {
+  "name": "Ladakh",
+  "city": "Leh",
+  "state": "Ladakh",
+  "description": "A high-altitude desert region surrounded by majestic mountains, Ladakh is known for its unique landscapes and monasteries.",
+  "public_rating": 5,
+  "id": 18
+ },
+ {
+  "name": "Munnar",
+  "city": "Munnar",
+  "state": "Kerala",
+  "description": "A hill station surrounded by tea plantations, Munnar offers breathtaking views of lush green landscapes.",
+  "public_rating": 4,
+  "id": 19
+ },
+ {
+  "name": "Jodhpur - The Blue City",
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "description": "Famous for its blue-painted houses and Mehrangarh Fort, Jodhpur is a captivating city in the Thar Desert.",
+  "public_rating": 5,
+  "id": 20
+ },
+ {
+  "name": "Pangong Lake",
+  "city": "Ladakh",
+  "state": "Ladakh",
+  "description": "A stunning high-altitude lake surrounded by snow-capped mountains, famous for its changing colors.",
+  "public_rating": 5,
+  "id": 21
+ },
+ {
+  "name": "Konark Sun Temple",
+  "city": "Konark",
+  "state": "Odisha",
+  "description": "A UNESCO World Heritage Site, the Sun Temple is known for its intricate architecture dedicated to the Sun God.",
+  "public_rating": 4,
+  "id": 22
+ },
+ {
+  "name": "Shimla",
+  "city": "Shimla",
+  "state": "Himachal Pradesh",
+  "description": "A popular hill station, Shimla is known for its colonial architecture, scenic landscapes, and pleasant weather.",
+  "public_rating": 4,
+  "id": 23
+ },
+ {
+  "name": "Khimsar Fort",
+  "city": "Khimsar",
+  "state": "Rajasthan",
+  "description": "An enchanting fort surrounded by sand dunes, offering a royal experience in the Thar Desert.",
+  "public_rating": 4,
+  "id": 24
+ },
+ {
+  "name": "Bodh Gaya",
+  "city": "Gaya",
+  "state": "Bihar",
+  "description": "A sacred pilgrimage site for Buddhists, Bodh Gaya is where Siddhartha Gautama attained enlightenment.",
+  "public_rating": 5,
+  "id": 25
+ },
+ {
+  "name": "Nainital",
+  "city": "Nainital",
+  "state": "Uttarakhand",
+  "description": "A charming hill station with a pear-shaped lake, surrounded by lush greenery and snow-capped mountains.",
+  "public_rating": 4,
+  "id": 26
+ },
+ {
+  "name": "Chennai Marina Beach",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "description": "One of the longest urban beaches in the world, Marina Beach is a popular spot for locals and tourists alike.",
+  "public_rating": 4,
+  "id": 27
+ },
+ {
+  "name": "Rajgir",
+  "city": "Rajgir",
+  "state": "Bihar",
+  "description": "An ancient city with historical and religious significance, Rajgir is surrounded by hills and lush greenery.",
+  "public_rating": 4,
+  "id": 28
+ },
+ {
+  "name": "Kaziranga National Park",
+  "city": "Kaziranga",
+  "state": "Assam",
+  "description": "A UNESCO World Heritage Site, Kaziranga is known for its conservation of the Indian one-horned rhinoceros.",
+  "public_rating": 5,
+  "id": 29
+ },
+ {
+  "name": "Aurangabad Caves",
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "description": "Rock-cut caves with intricate carvings, representing the art and architecture of ancient India.",
+  "public_rating": 4,
+  "id": 30
+ },
+ {
+  "name": "Kanyakumari",
+  "city": "Kanyakumari",
+  "state": "Tamil Nadu",
+  "description": "The southernmost tip of the Indian mainland, offering breathtaking views of the confluence of three seas.",
+  "public_rating": 4,
+  "id": 31
+ },
+ {
+  "name": "Ranikhet",
+  "city": "Ranikhet",
+  "state": "Uttarakhand",
+  "description": "A serene hill station with panoramic views of the Himalayas, known for its pine-covered hills.",
+  "public_rating": 4,
+  "id": 32
+ },
+ {
+  "name": "Dudhsagar Waterfalls",
+  "city": "Goa",
+  "state": "Goa",
+  "description": "One of the tallest waterfalls in India, Dudhsagar is surrounded by lush greenery and is a popular trekking destination.",
+  "public_rating": 4,
+  "id": 33
+ },
+ {
+  "name": "Chandigarh Rose Garden",
+  "city": "Chandigarh",
+  "state": "Punjab",
+  "description": "A beautiful garden with thousands of rose varieties, showcasing vibrant colors and fragrances.",
+  "public_rating": 4,
+  "id": 34
+ },
+ {
+  "name": "Bikaner - The Camel City",
+  "city": "Bikaner",
+  "state": "Rajasthan",
+  "description": "Known for its camel safaris and the Junagarh Fort, Bikaner is a fascinating city in the Thar Desert.",
+  "public_rating": 4,
+  "id": 35
+ },
+ {
+  "name": "Pondicherry",
+  "city": "Pondicherry",
+  "state": "Puducherry",
+  "description": "A charming coastal town with French colonial influence, Pondicherry is known for its tranquility and unique blend of cultures.",
+  "public_rating": 4,
+  "id": 36
+ },
+ {
+  "name": "Mahabodhi Temple",
+  "city": "Bodh Gaya",
+  "state": "Bihar",
+  "description": "A UNESCO World Heritage Site, Mahabodhi Temple marks the spot where Buddha is said to have attained enlightenment.",
+  "public_rating": 5,
+  "id": 37
+ },
+ {
+  "name": "Matheran",
+  "city": "Matheran",
+  "state": "Maharashtra",
+  "description": "A quaint hill station with a no-vehicle policy, Matheran offers a peaceful retreat amidst nature.",
+  "public_rating": 4,
+  "id": 38
+ },
+ {
+  "name": "Agumbe",
+  "city": "Agumbe",
+  "state": "Karnataka",
+  "description": "Known as the 'Cherrapunji of the South,' Agumbe is a scenic destination with lush green landscapes and waterfalls.",
+  "public_rating": 4,
+  "id": 39
+ },
+ {
+  "name": "Bhimbetka Rock Shelters",
+  "city": "Bhojpur",
+  "state": "Madhya Pradesh",
+  "description": "A UNESCO World Heritage Site, Bhimbetka is known for its ancient rock paintings, depicting prehistoric life.",
+  "public_rating": 4,
+  "id": 40
+ },
+ {
+  "name": "Panchgani",
+  "city": "Panchgani",
+  "state": "Maharashtra",
+  "description": "A picturesque hill station with scenic views of the Sahyadri mountains, known for its strawberry farms.",
+  "public_rating": 4,
+  "id": 41
+ }
+]
