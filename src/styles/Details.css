@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:wght@400;700&display=swap');
+
+.details{
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.details .information{
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.details .hotels{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: scroll;
+    
+
+}
+
+.details .hotels::-webkit-scrollbar{
+    display: none;
+}
+
+.information .information__innerdiv{
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.information__innerdiv img{
+    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.information__innerdiv .name{
+    font-size: 30px;
+    font-family: "Protest Strike", sans-serif;
+    color: #03045e;
+
+}
+
+.information__innerdiv .city{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.information__innerdiv .monthly__visit{
+    height: 15px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.information__innerdiv .year_of_establish{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: 15px;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        color: black;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+.information__innerdiv .history{
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.information__innerdiv .importance{
+    height: 15px;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        color: black;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+.information__innerdiv .monthly__visit span{
+    height: 100%;
+    width: auto;
+}
+
+.information__innerdiv .year_of_establish span {
+    height: 100%;
+    width: auto;
+}
+
+.information__innerdiv .importance span {
+    height: 100%;
+    width: auto;
+}
+
+.information__innerdiv .monthly__visit span .subgroup{
+    height: 100%;
+    width: auto;
+    margin-right: 5px;
+}
+
+.information__innerdiv .year_of_establish span .subgroup{
+    height: 100%;
+    width: auto;
+    margin-right: 5px;
+}
+
+.information__innerdiv .importance span .subgroup {
+    height: 100%;
+    width: auto;
+    margin-right: 5px;
+}
+
+.hotels .hotel{
+    margin-bottom: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 200px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hotel .hotelImg{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.hotel_details .city{
+    
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+
+}
+
+.hotel .hotel_details{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hotel_details .name{
+    font-size: 25px;
+    font-family: "Protest Strike", sans-serif;
+    color: #03045e;
+
+
+}
+
+
+
+.hotel_details ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hotel_details ul li{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.hotel_details ul li img{
+    height: 100%;
+    width: 100%;
+}
+
+.hotel_details .price{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
